@@ -14,7 +14,7 @@ function createSlides(count) {
     );
     const number = i + 1;
     slideImg.setAttribute('alt', 'slide');
-    slideImg.setAttribute('src', ('/img/' + number + '.jpg'));
+    slideImg.setAttribute('src', ('img/' + number + '.jpg'));
     
     slideLink.setAttribute('href', '#');
     slideLink.appendChild(slideImg);
@@ -55,24 +55,24 @@ function  controlsItem() {
 
         controlItem.setAttribute('class', 'controls__item controls__prev');
         controlImg.setAttribute('alt', '#');
-        controlImg.setAttribute('src', '/img/left.png');
+        controlImg.setAttribute('src', 'img/left.png');
         controlItem.appendChild(controlImg);
         break;
       case 1:
         controlItem.setAttribute('class', 'controls__item controls__next');
         controlImg.setAttribute('alt', '#');
-        controlImg.setAttribute('src', '/img/right.png');
+        controlImg.setAttribute('src', 'img/right.png');
         controlItem.appendChild(controlImg);
         break;
       case 2:
         controlItem.setAttribute('class', 'controls__item controls__pause');
         controlImg.setAttribute('class', 'controls__img active');
         controlImg.setAttribute('alt', '#');
-        controlImg.setAttribute('src', '/img/pause.png');
+        controlImg.setAttribute('src', 'img/pause.png');
         controlItem.appendChild(controlImg);
         controlImg2.setAttribute('class', 'controls__img');
         controlImg2.setAttribute('alt', '#');
-        controlImg2.setAttribute('src', '/img/play.png');
+        controlImg2.setAttribute('src', 'img/play.png');
         controlItem.appendChild(controlImg2);
         break;
     }
